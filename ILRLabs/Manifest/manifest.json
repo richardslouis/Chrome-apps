@@ -1,0 +1,20 @@
+{"manifest_version": 2,
+  "name": "ILRLabs",
+  "description": "ILRLabs - Grade, Hashprofiles, GoPad and R&D",
+  "version": "3.0",
+  "app": {
+    "urls": [
+      "http://www.ilrlabs.com/gopad"
+    ],
+    "launch": {
+      "web_url": "http://www.ilrlabs.com"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+    "author": "",
+    "browser_action": {
+        "default_icon": {
+            "48": "ok.png"
+        },
+        "default_popup": "shorten.html"
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "windows": "Ctrl+M",
+                "mac": "Command+M",
+                "chromeos": "Ctrl+M",
+                "linux": "Ctrl+M"
+            }
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "jquery-1.11.3.min.js",
+                "shortenurl.js"
+            ]
+        }
+    ],
+    "content_security_policy": "script-src 'self' https://connect.facebook.net; object-src 'self'",
+    "description": "This extension allows you to shorten Url",
+    "icons": {
+        "16": "16x16.png",
+        "48": "48x48.png",
+        "128": "128x128.png"
+    },
+    "manifest_version": 2,
+    "name": "0bc.xyz | URL Shortening (Extension)",
+	"short_name": "0bc.xyz",
+	"author": "Dofioo",
+    "permissions": [
+        "activeTab",
+        "http://localhost/0bcxyz/ShortenApi.php",
+        "http://0bc.xyz/ShortenApi.php",
+        "http://connect.facebook.net/en_US/sdk.js",
+        "https://developers.facebook.com/docs/",
+        "clipboardRead",
+        "clipboardWrite"
+    ],
+    "version": "6.0",
+    "-ms-preload": {
+        "backgroundScript": "backgroundScriptsAPIBridge.js",
+        "contentScript": "contentScriptsAPIBridge.js"
+    }
+}

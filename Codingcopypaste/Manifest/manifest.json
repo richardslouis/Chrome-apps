@@ -1,0 +1,20 @@
+{"manifest_version": 2,
+  "name": "CodingCopyPaste",
+  "description": "Codemania and Confidence Port from RichieSoft, where Codemania is a code encyclopedia",
+  "version": "2.0",
+  "app": {
+    "urls": [
+      "http://www.codingcopypaste.com/apps/blog"
+    ],
+    "launch": {
+      "web_url": "http://www.codingcopypaste.com"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

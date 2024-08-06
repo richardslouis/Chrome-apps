@@ -1,0 +1,20 @@
+{"manifest_version": 2,
+  "name": "0bc.xyz | URL Shortening",
+  "description": "Fastest way to shorten your long URL, copy and use it.",
+  "version": "1.0",
+  "app": {
+    "urls": [
+      "http://0bc.xyz/index.php"
+    ],
+    "launch": {
+      "web_url": "http://0bc.xyz/index.php"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

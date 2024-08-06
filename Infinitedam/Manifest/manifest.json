@@ -1,0 +1,20 @@
+{"manifest_version": 2,
+  "name": "GoDaddy | InfiniteDam",
+  "description": "Get your Business into website just in few mintues. A complete shop for you website.",
+  "version": "1.0",
+  "app": {
+    "urls": [
+      "http://www.infinitedam.com/chrome"
+    ],
+    "launch": {
+      "web_url": "http://www.infinitedam.com/chrome"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

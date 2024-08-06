@@ -1,0 +1,20 @@
+{"manifest_version": 2,
+  "name": "Glueping Mag (World Ed)",
+  "description": "Planet's best Technology Mag | Richiesoft",
+  "version": "1.0",
+  "app": {
+    "urls": [
+      "http://www.glueping.com/chrome.html"
+    ],
+    "launch": {
+      "web_url": "http://www.glueping.com/chrome.html"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

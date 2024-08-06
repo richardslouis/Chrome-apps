@@ -1,0 +1,27 @@
+{"manifest_version": 2,
+  "name": "Finiup | Magazine",
+  "short_name": "Finiup",
+  "description": "No.1 Startup Touch Magazine | Richiesoft",
+  "permissions": ["gcm", "storage", "notifications", "identity", "browser"],
+  "version": "6.0",
+  "app": {
+    "background": {
+      "scripts": ["OneSignal.js", "background.js"]
+    }
+  },
+  "app": {
+    "urls": [
+      "https://magazines.magpoke.com/magazines/business/finiup/english/4k/html5/proceed.html"
+    ],
+    "launch": {
+      "web_url": "https://magazines.magpoke.com/magazines/business/finiup/english/4k/html5/proceed.html"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

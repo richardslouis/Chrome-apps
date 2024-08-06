@@ -1,0 +1,27 @@
+{"manifest_version": 2,
+  "name": "Magpoke | Newsstand",
+  "short_name": "Magpoke",
+  "description": "Newsstand | Techno, Fashion & Business",
+  "permissions": ["gcm", "storage", "notifications", "identity", "browser"],
+  "version": "6.0",
+  "app": {
+    "background": {
+      "scripts": ["OneSignal.js", "background.js"]
+    }
+  },
+  "app": {
+    "urls": [
+      "http://www.magpoke.com/chrome.html"
+    ],
+    "launch": {
+      "web_url": "http://www.magpoke.com/chrome.html"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

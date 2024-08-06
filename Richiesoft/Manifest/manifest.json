@@ -1,0 +1,20 @@
+{"manifest_version": 2,
+  "name": "Richiesoft",
+  "description": "Richiesoft - Purple, Products, Aneve, Ideagogreen, Apps",
+  "version": "2.0",
+  "app": {
+    "urls": [
+      "http://www.richiesoft.com/products"
+    ],
+    "launch": {
+      "web_url": "http://www.richiesoft.com"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

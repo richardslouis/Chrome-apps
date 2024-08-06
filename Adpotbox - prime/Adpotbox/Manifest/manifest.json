@@ -1,0 +1,26 @@
+{"manifest_version": 2,
+  "name": "Adpotbox | Prime",
+  "description": "Ad-automation tool | Richiesoft",
+  "permissions": ["gcm", "storage", "notifications", "identity", "browser"],
+  "version": "2.0",
+  "app": {
+    "background": {
+      "scripts": ["OneSignal.js", "background.js"]
+    }
+  },
+  "app": {
+    "urls": [
+      "http://prime.adpotbox.com/index.html"
+    ],
+    "launch": {
+      "web_url": "http://prime.adpotbox.com/index.html"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

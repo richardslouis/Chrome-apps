@@ -1,0 +1,20 @@
+{"manifest_version": 2,
+  "name": "Eptro",
+  "description": "A RichieSoft product",
+  "version": "2.0",
+  "app": {
+    "urls": [
+      "http://www.eptro.com/home"
+    ],
+    "launch": {
+      "web_url": "http://www.eptro.com"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

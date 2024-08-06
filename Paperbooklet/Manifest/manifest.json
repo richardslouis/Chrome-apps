@@ -1,0 +1,20 @@
+{"manifest_version": 2,
+  "name": "Paperbooklet",
+  "description": "Research Social Network | ILRLabs",
+  "version": "1.0",
+  "app": {
+    "urls": [
+      "http://www.paperbooklet.com/index.php"
+    ],
+    "launch": {
+      "web_url": "http://www.paperbooklet.com/index.php"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

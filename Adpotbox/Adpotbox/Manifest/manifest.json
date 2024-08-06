@@ -1,0 +1,26 @@
+{"manifest_version": 2,
+  "name": "Adpotbox",
+  "description": "ILRLabs | Shooshpay & Pay.Richiesoft",
+  "permissions": ["gcm", "storage", "notifications", "identity", "browser"],
+  "version": "6.0",
+  "app": {
+    "background": {
+      "scripts": ["OneSignal.js", "background.js"]
+    }
+  },
+  "app": {
+    "urls": [
+      "http://adpotbox.com/index.html"
+    ],
+    "launch": {
+      "web_url": "http://adpotbox.com/index.html"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

@@ -1,0 +1,27 @@
+{"manifest_version": 2,
+  "name": "0bc.xyz | URL Shortening",
+  "short_name": "0bc.xyz",
+  "description": "Fastest way to shorten your long URL, copy and use it.",
+  "permissions": ["gcm", "storage", "notifications", "identity", "browser"],
+  "version": "6.0",
+  "app": {
+    "background": {
+      "scripts": ["OneSignal.js", "background.js"]
+    }
+  },
+  "app": {
+    "urls": [
+      "http://0bc.xyz/splash.html"
+    ],
+    "launch": {
+      "web_url": "http://0bc.xyz/splash.html"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

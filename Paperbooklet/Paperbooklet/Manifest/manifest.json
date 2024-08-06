@@ -1,0 +1,27 @@
+{"manifest_version": 2,
+  "name": "Paperbooklet | Clipboard",
+  "short_name": "Paperbooklet",
+  "description": "Content Cloud Store | Doifoo",
+  "permissions": ["gcm", "storage", "notifications", "identity", "browser"],
+  "version": "6.0",
+  "app": {
+    "background": {
+      "scripts": ["OneSignal.js", "background.js"]
+    }
+  },
+  "app": {
+    "urls": [
+      "http://paperbooklet.com/splash.html"
+    ],
+    "launch": {
+      "web_url": "http://paperbooklet.com/splash.html"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}
